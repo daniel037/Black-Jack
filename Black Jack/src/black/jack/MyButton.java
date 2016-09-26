@@ -17,12 +17,15 @@ public class MyButton extends JButton {
     //----------------------------
     public MyButton(int v)
     {
+        super("    ");
         this.v = v;
     }
+    //------------------------------------
     public void show()
     {
         setText(""+v);
     }
+    //----------------------------------
     public int getValue ()
     {
         return v;
